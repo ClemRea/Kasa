@@ -1,0 +1,31 @@
+.kasa_sectionCard {
+  border-radius: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 56px 50px 50px 50px;
+  background-color: #f6f6f6;
+}
+
+.kasa_card_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 60px;
+}
+
+.kasa_card {
+  cursor: pointer;
+}
+
+.kasa_card img {
+  margin-bottom: -50px;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.kasa_card_title {
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 16px;
+  color: #ffffff;
+}

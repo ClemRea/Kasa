@@ -1,0 +1,57 @@
+/* BACKGROUND */
+.background_about {
+  background-image: url("../assets/background_about.jpg");
+  height: 224px;
+  background-size: cover;
+  background-position: center;
+  margin: 49px 100px 31px 100px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.background_about_filtre {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* TEXTE DEROULANT */
+
+.collapse_dropDown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 31px;
+}
+
+.collapse_dropDown_container {
+  width: 62vw;
+  border-radius: 5px;
+  background-color: #ff6060;
+  color: white;
+}
+
+.collapse_dropDown_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 18px;
+  height: 47px;
+}
+
+.collapse_dropDown_content {
+  border-radius: 0 0 5px 5px;
+  background-color: #f6f6f6;
+}
+
+.collapse_dropDown_text {
+  padding: 36px 27px 19px 18px;
+  color: #ff6060;
+  font-size: 20px;
+}
+
+.vector {
+  padding-right: 17px;
+  cursor: pointer;
+}

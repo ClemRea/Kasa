@@ -1,0 +1,27 @@
+.kasa_banner {
+  justify-content: space-between;
+  margin-top: 40px;
+  display: flex;
+}
+
+.kasa_logo {
+  margin-left: 100px;
+}
+
+.kasa_navBarre {
+  margin-right: 100px;
+}
+
+.kasa_navBarre a {
+  font-weight: 500;
+  font-size: 24px;
+  color: #ff6060;
+}
+
+.kasa_link:hover {
+  text-decoration: underline;
+}
+
+.linkMargin {
+  margin-right: 54px;
+}

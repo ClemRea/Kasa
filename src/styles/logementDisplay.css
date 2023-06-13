@@ -1,0 +1,12 @@
+/*****TITRE LOGEMENT*****/
+.titre_logement {
+  font-weight: 500;
+  color: #ff6060;
+  font-size: 36px;
+}
+
+.localisation_logement {
+  font-weight: 500;
+  color: #ff6060;
+  font-size: 18px;
+}

@@ -1,0 +1,25 @@
+.kasa_error {
+  text-align: center;
+  color: #ff6060;
+}
+
+.kasa_error_code {
+  margin-top: 174px;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 288px;
+}
+
+.kasa_error_message {
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 182px;
+}
+
+.kasa_error_main_link {
+  display: inline-block;
+  margin-bottom: 159px;
+  font-size: 18px;
+  color: #ff6060;
+  border-bottom: 1px solid #ff6060;
+}
