@@ -1,8 +1,8 @@
 import "../../styles/about.css";
 import Banner from "../banner";
-import Footer from "../footer";
 import Collapse from "../Collapse";
 import CollapsesData from "../../datas/collapsesData.json";
+import "../../styles/utils/tel_resolution/about_media.css";
 
 function About() {
   return (
@@ -18,7 +18,7 @@ function About() {
           <div className="collapse_dropDown">
             {CollapsesData.map((item) => {
               return (
-                <div key={item.id}>
+                <div className="about_collapse" key={item.id}>
                   <Collapse content={item.content} title={item.title} />
                 </div>
               );
@@ -26,9 +26,6 @@ function About() {
           </div>
         </div>
       </div>
-      <footer className="kasa_footer">
-        <Footer />
-      </footer>
     </div>
   );
 }

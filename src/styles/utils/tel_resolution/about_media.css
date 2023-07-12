@@ -1,0 +1,17 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .background_about {
+    margin: 20px;
+  }
+  .about_collapse {
+    width: 90%;
+  }
+  .about_title {
+    font-size: 13px;
+  }
+  .vector {
+    width: 20px;
+  }
+  .collapse_dropDown_text {
+    font-size: 12px;
+  }
+}

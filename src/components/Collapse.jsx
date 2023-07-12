@@ -11,7 +11,7 @@ const Collapse = ({ title, content }) => {
   return (
     <div className="collapse_dropDown_container">
       <div className="collapse_dropDown_title">
-        <h2>{title}</h2>
+        <h2 className="about_title">{title}</h2>
         <p onClick={display}>
           {isOpen ? (
             <img

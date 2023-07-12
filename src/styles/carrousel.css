@@ -1,8 +1,4 @@
 /********DIMENSION IMG*********/
-.slider {
-  margin: 0 100px;
-}
-
 .slide_img {
   border-radius: 25px;
   width: 100%;
@@ -13,26 +9,30 @@
 
 /*********POSITION VECTOR***********/
 .slide {
-  margin-top: 25px;
+  margin: 30px 0;
   position: relative;
 }
 
 .vector_left {
   position: absolute;
   cursor: pointer;
-  top: 160px;
-  left: 116px;
+  top: 43%;
+  left: 3%;
 }
 
 .vector_right {
   position: absolute;
   cursor: pointer;
-  top: 160px;
-  right: 116px;
+  top: 43%;
+  right: 3%;
 }
 
 /*********POSITION NOMBRE IMAGE***********/
 .slider_number {
+  color: white;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
   font-weight: 500;
   font-size: 18px;
 }

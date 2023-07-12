@@ -13,6 +13,7 @@ function DisplayCard() {
             src={item.cover}
             alt={item.title}
           ></img>
+
           <p className="kasa_card_title">{item.title}</p>
         </Link>
       ))}

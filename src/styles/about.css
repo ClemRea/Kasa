@@ -1,3 +1,5 @@
+@import url("./utils/variables.css");
+
 /* BACKGROUND */
 .background_about {
   background-image: url("../assets/background_about.jpg");
@@ -17,6 +19,10 @@
 
 /* TEXTE DEROULANT */
 
+.about_collapse {
+  width: 62vw;
+}
+
 .collapse_dropDown {
   display: flex;
   flex-direction: column;
@@ -25,10 +31,9 @@
 }
 
 .collapse_dropDown_container {
-  width: 62vw;
   border-radius: 5px;
-  background-color: #ff6060;
-  color: white;
+  background-color: var(--primary_color);
+  color: var(--text_color);
 }
 
 .collapse_dropDown_title {
@@ -42,12 +47,12 @@
 
 .collapse_dropDown_content {
   border-radius: 0 0 5px 5px;
-  background-color: #f6f6f6;
+  background-color: var(--background_color);
 }
 
 .collapse_dropDown_text {
   padding: 36px 27px 19px 18px;
-  color: #ff6060;
+  color: var(--primary_color);
   font-size: 20px;
 }
 

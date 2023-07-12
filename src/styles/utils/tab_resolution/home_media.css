@@ -1,0 +1,23 @@
+@import url("../variables.css");
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .kasa_navBarre {
+    margin-right: 20px;
+  }
+
+  .kasa_logo {
+    margin-left: 20px;
+  }
+
+  .kasaSection1 {
+    margin: 28px 20px 22px 20px;
+  }
+
+  .kasa_card_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .kasa_sectionCard {
+    margin: 0 20px;
+  }
+}

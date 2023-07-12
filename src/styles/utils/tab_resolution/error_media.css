@@ -1,0 +1,11 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .kasa_error_code {
+    font-size: 175;
+  }
+  .kasa_error_message {
+    font-size: 30px;
+  }
+  .kasa_error_main_link {
+    font-size: 20px;
+  }
+}

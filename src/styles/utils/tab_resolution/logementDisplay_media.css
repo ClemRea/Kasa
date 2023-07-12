@@ -1,0 +1,27 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .fiche_container {
+    margin: 0 20px;
+  }
+
+  .description_info {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .host_container {
+    width: 100%;
+    flex-direction: row-reverse;
+    gap: inherit;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  .collapse_logement_container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .collapse_logement_description {
+    width: 100%;
+  }
+  .collapse_logement_equipement {
+    width: 100%;
+  }
+}

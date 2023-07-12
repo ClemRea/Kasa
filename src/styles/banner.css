@@ -1,3 +1,5 @@
+@import url("../styles/utils/variables.css");
+
 .kasa_banner {
   justify-content: space-between;
   margin-top: 40px;
@@ -9,6 +11,8 @@
 }
 
 .kasa_navBarre {
+  display: flex;
+  align-items: center;
   margin-right: 100px;
 }
 
@@ -24,4 +28,8 @@
 
 .linkMargin {
   margin-right: 54px;
+}
+
+.active {
+  border-bottom: 1px solid var(--primary_color);
 }

@@ -1,0 +1,58 @@
+@import url("../variables.css");
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .kasa_banner {
+    margin-top: 38px;
+  }
+  .kasa_navBarre {
+    margin-right: 20px;
+  }
+
+  .linkMargin {
+    margin-right: 10px;
+  }
+
+  .kasa_link {
+    font-size: 12px !important;
+  }
+
+  .kasa_logo {
+    width: 125px;
+    margin-left: 20px;
+  }
+  .kasaSection1 {
+    margin: 28px 20px 22px 20px;
+  }
+
+  .kasaSection1Filtre {
+    justify-content: inherit;
+  }
+
+  .kasa_titreH1 {
+    margin-left: 16px;
+    text-align: inherit;
+    font-size: 30px;
+  }
+
+  .kasa_sectionCard {
+    margin: 0;
+    padding: 56px 20px 50px 20px;
+    background-color: var(--text_color);
+  }
+
+  .kasa_card_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .kasa_card::before {
+    top: 49%;
+  }
+
+  .kasa_card img {
+    height: 37vh;
+  }
+
+  .kasa_footerText {
+    font-size: 12px;
+  }
+}

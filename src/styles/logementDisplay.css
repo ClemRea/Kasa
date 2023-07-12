@@ -1,12 +1,95 @@
+@import url("./utils/variables.css");
+
+.fiche_container {
+  margin: 0 100px;
+}
+
+.description_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /*****TITRE LOGEMENT*****/
 .titre_logement {
   font-weight: 500;
-  color: #ff6060;
+  color: var(--primary_color);
   font-size: 36px;
 }
 
 .localisation_logement {
   font-weight: 500;
-  color: #ff6060;
+  color: var(--primary_color);
   font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/*****TAGS*****/
+.description_info_tag {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 26px;
+}
+
+.tag_container {
+  padding: 3px 40px;
+  background-color: var(--primary_color);
+  border-radius: 10px;
+  color: var(--text_color);
+}
+
+/*****HOST*****/
+.host_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.host_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.host_picture {
+  width: 64px;
+  border-radius: 50%;
+}
+
+.host_name {
+  display: block;
+  color: var(--primary_color);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/*****STARS*****/
+
+.rate_container {
+  display: flex;
+  align-items: center;
+  float: right;
+  gap: 15px;
+}
+
+.etoile {
+  width: 24px;
+}
+
+/*****COLLAPSE*****/
+.collapse_logement_container {
+  display: flex;
+  gap: 76px;
+}
+
+.collapse_logement_description {
+  width: 40vw;
+}
+
+.collapse_logement_equipement {
+  width: 40vw;
 }

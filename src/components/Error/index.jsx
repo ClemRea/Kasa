@@ -1,7 +1,8 @@
 import "../../styles/error.css";
 import { Link } from "react-router-dom";
 import Banner from "../banner";
-import Footer from "../footer";
+import "../../styles/utils/tab_resolution/error_media.css";
+import "../../styles/utils/tel_resolution/error_media.css";
 
 function Error() {
   return (
@@ -16,9 +17,6 @@ function Error() {
       <Link to="/" className="kasa_error_main_link">
         Retourner sur la page d’accueil
       </Link>
-      <footer className="kasa_footer">
-        <Footer />
-      </footer>
     </div>
   );
 }

@@ -29,7 +29,7 @@ function Carrousel({ slides }) {
       )}
       {slides.map((image, i) => {
         return (
-          <div key={i} className={i === current ? "slider active" : "slider"}>
+          <div key={i} className="slider">
             {i === current && (
               <img src={image} className="slide_img" alt="logement" />
             )}
