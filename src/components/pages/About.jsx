@@ -3,13 +3,12 @@ import Banner from "../banner";
 import Collapse from "../Collapse";
 import CollapsesData from "../../datas/collapsesData.json";
 import "../../styles/utils/tel_resolution/about_media.css";
+import Footer from "../footer";
 
 function About() {
   return (
     <div>
-      <header>
-        <Banner />
-      </header>
+      <Banner />
       <div>
         <div className="background_about">
           <div className="background_about_filtre"></div>
@@ -25,6 +24,9 @@ function About() {
             })}
           </div>
         </div>
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

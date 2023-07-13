@@ -5,9 +5,9 @@ import Banner from "../banner";
 function Card() {
   return (
     <div>
-      <header>
+      <div>
         <Banner />
-      </header>
+      </div>
       <div>
         <LogmentDisplay />
       </div>

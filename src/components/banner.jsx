@@ -1,10 +1,7 @@
-import { Link, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../styles/banner.css";
 
 function Banner() {
-  const location = useLocation();
-  const isWellcomePage = location.pathname === "/";
-  const isAboutPage = location.pathname === "/about";
   const logo = (
     <svg
       width="210"
@@ -40,22 +37,30 @@ function Banner() {
     <div className="kasa_banner">
       {logo}
       <nav className="kasa_navBarre">
-        <Link
-          to="/"
-          className={
-            isWellcomePage
-              ? "kasa_link linkMargin active"
-              : "kasa_link linkMargin"
-          }
-        >
-          Accueil
-        </Link>
-        <Link
-          to="/about"
-          className={isAboutPage ? "kasa_link active" : "kasa_link"}
-        >
-          A Propos
-        </Link>
+        <ul className="list_link">
+          <li>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive
+                  ? "kasa_link linkMargin active"
+                  : "kasa_link linkMargin"
+              }
+            >
+              Accueil
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? "kasa_link active" : "kasa_link"
+              }
+            >
+              A Propos
+            </NavLink>
+          </li>
+        </ul>
       </nav>
     </div>
   );

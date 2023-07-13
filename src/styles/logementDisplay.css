@@ -65,6 +65,8 @@
   color: var(--primary_color);
   font-weight: 500;
   font-size: 18px;
+  max-width: 95px;
+  text-align: right;
 }
 
 /*****STARS*****/

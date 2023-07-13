@@ -44,6 +44,8 @@
   }
   .host_name {
     font-size: 12px;
+    max-width: 63px;
+    text-align: right;
   }
   .host_picture {
     width: 35px;

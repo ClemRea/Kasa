@@ -16,13 +16,18 @@
   margin-right: 100px;
 }
 
+.list_link {
+  display: flex;
+  flex-direction: row;
+}
+
 .kasa_navBarre a {
   font-weight: 500;
   font-size: 24px;
   color: #ff6060;
 }
 
-.kasa_link:hover {
+.kasa_link:hover:not(.active) {
   text-decoration: underline;
 }
 
