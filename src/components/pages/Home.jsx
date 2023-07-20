@@ -1,4 +1,3 @@
-import Banner from "../banner";
 import Chezvous from "../sectionChezVous";
 import DisplayCard from "../sectionLogement";
 import "../../styles/utils/tab_resolution/home_media.css";
@@ -7,7 +6,6 @@ import "../../styles/utils/tel_resolution/home_media.css";
 function Home() {
   return (
     <div>
-      <Banner />
       <section className="kasa_sectionChezVous">
         <Chezvous />
       </section>
