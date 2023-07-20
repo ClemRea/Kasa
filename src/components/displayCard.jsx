@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-import "../styles/sectionLogement.css";
+import "../styles/displayCard.css";
 import items from "../datas/logementsList.json";
-import "../styles/sectionLogement.css";
 
 function DisplayCard() {
   return (

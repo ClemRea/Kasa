@@ -6,25 +6,27 @@
   display: flex;
 }
 
+/****LOGO****/
 .kasa_logo {
   margin-left: 100px;
 }
 
+/****NAVBARRE****/
 .kasa_navBarre {
   display: flex;
   align-items: center;
   margin-right: 100px;
 }
 
-.list_link {
-  display: flex;
-  flex-direction: row;
-}
-
 .kasa_navBarre a {
   font-weight: 500;
   font-size: 24px;
   color: #ff6060;
+}
+
+.list_link {
+  display: flex;
+  flex-direction: row;
 }
 
 .kasa_link:hover:not(.active) {

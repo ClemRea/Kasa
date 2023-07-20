@@ -1,4 +1,4 @@
-import "../styles/sectionChezVous.css";
+import "../styles/chezVous.css";
 
 function ChezVous() {
   return (

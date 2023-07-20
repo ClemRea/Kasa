@@ -1,5 +1,5 @@
-import Chezvous from "../sectionChezVous";
-import DisplayCard from "../sectionLogement";
+import Chezvous from "../chezVous";
+import DisplayCard from "../displayCard";
 import "../../styles/utils/tab_resolution/home_media.css";
 import "../../styles/utils/tel_resolution/home_media.css";
 
